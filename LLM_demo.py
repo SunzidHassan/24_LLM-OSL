@@ -3,11 +3,14 @@ import matplotlib.pyplot as plt
 import base64
 import numpy as np
 import pandas as pd
-
+import os
+from dotenv import load_dotenv
 from llmPrompt import llmPrompt
 from gptPayload import payload
 
-api_key = ''
+# Load the OpenAI API key from .env file
+load_dotenv()
+api_key = os.getenv('OPENAPI_KEY')
 
 # get user input of timestamp
 i = input("Please enter a timestamp (1-13): ")
