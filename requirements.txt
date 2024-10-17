@@ -1,0 +1,7 @@
+openai==1.52.0
+requests
+Pillow
+opencv-python
+numpy
+pandas
+PyYAML

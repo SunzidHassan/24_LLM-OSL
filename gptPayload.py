@@ -2,13 +2,13 @@ from openai import OpenAI
 import requests
 
 
-def payload(api_key, prompt, image):
+def payload(api_key, prompt, image, model):
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {api_key}"}
 
     payload = {
-        "model": "gpt-4o",
+        "model": model,
         "messages": [
             {
                 "role": "user",

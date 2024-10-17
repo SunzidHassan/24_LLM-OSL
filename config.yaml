@@ -1,0 +1,8 @@
+
+############ Large language model config ############
+OPENAI_KEY:  # 'sk-xxxxxx' 
+OPENAI_CHAT_MODEL: 'gpt-4o'
+
+############### DiLu settings ############
+reflection_module: False # True or False
+memory_path: 'assets/simulationData'
