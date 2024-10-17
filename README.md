@@ -8,7 +8,6 @@
 [Khan Raqib Mahmud]() |
 
 
-
 ## 🔍 Framework Overview
 <p align="center">
 	<img src="assets/LLMFlow2.png" />
@@ -22,8 +21,8 @@ We recommend setting up a python virtualenv or conda environment to help manage 
 
 Sample instruction for `conda` users.
 ```bash
-conda create -n `llmosl` python=3.12.4
-conda activate `llmosl`
+conda create -n llmosl python=3.12.4
+conda activate llmosl
 pip install -r requirements.txt
 ```
 

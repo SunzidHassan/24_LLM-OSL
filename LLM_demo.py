@@ -20,9 +20,9 @@ api_key = config['OPENAI_KEY']
 gpt_model = config['OPENAI_CHAT_MODEL']
 
 # get user input of timestamp
-i = input("Please enter a timestamp (1-13): ")
-if not 1 <= int(i) <= 14:
-    i = np.random.randint(1,14)
+i = input("Please enter a timestamp (1-12): ")
+if not 1 <= int(i) <= 12:
+    i = np.random.randint(1,12)
     print(f"Invalid input, selecting {i} as the timestamp")
 else:
     i = int(i)
