@@ -1,7 +1,7 @@
 # Integrating Vision and Olfaction via Multi-modal LLM for Robotic Odor Source Localization
 > Code release for our [Sensors](https://www.mdpi.com/journal/sensors) publication.
 
-[Project page](https://sunzidhassan.github.io/24_Vision-Olfaction-LLM_PP/) | [Preprint]()
+[Project page](https://sunzidhassan.github.io/24_LLMOSL/) | [Preprint]()
 
 [Sunzid Hassan]() |
 [Lingxiao Wang]() |
